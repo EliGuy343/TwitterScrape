@@ -1,0 +1,24 @@
+1667575638653	geckodriver	INFO	Listening on 127.0.0.1:58403
+1667575638718	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37921" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoHHNsq"
+[GFX1-]: glxtest: libEGL missing methods for GL test
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1667575639460	Marionette	INFO	Marionette enabled
+1667575639465	Marionette	INFO	Listening on port 39241
+Read port: 39241
+WebDriver BiDi listening on ws://127.0.0.1:37921
+1667575639609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoHHNsq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37921/devtools/browser/5f0fa014-49ac-462e-ac48-9fcceeb595a2
+1667575647869	Marionette	INFO	Stopped listening on port 39241
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667575767379	geckodriver	INFO	Listening on 127.0.0.1:43065
+1667575767420	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52189" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoVolGg"
+[GFX1-]: glxtest: libEGL missing methods for GL test
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1667575768236	Marionette	INFO	Marionette enabled
+1667575768241	Marionette	INFO	Listening on port 33947
+Read port: 33947
+WebDriver BiDi listening on ws://127.0.0.1:52189
+1667575768395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoVolGg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52189/devtools/browser/a06b149b-c178-48f3-b70a-719811fb18af
