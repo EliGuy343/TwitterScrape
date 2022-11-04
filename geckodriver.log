@@ -22,3 +22,36 @@ WebDriver BiDi listening on ws://127.0.0.1:52189
 1667575768395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoVolGg/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:52189/devtools/browser/a06b149b-c178-48f3-b70a-719811fb18af
+1667576324153	geckodriver	INFO	Listening on 127.0.0.1:60905
+1667576324214	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47171" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexgRLNb"
+[GFX1-]: glxtest: libEGL missing methods for GL test
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1667576325005	Marionette	INFO	Marionette enabled
+1667576325014	Marionette	INFO	Listening on port 36517
+Read port: 36517
+WebDriver BiDi listening on ws://127.0.0.1:47171
+1667576325151	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexgRLNb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47171/devtools/browser/bcf9e87b-9283-41ec-9693-febbf52234ff
+1667576536377	geckodriver	INFO	Listening on 127.0.0.1:36207
+1667576536438	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54919" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGo6FK8"
+[GFX1-]: glxtest: libEGL missing methods for GL test
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1667576537177	Marionette	INFO	Marionette enabled
+1667576537183	Marionette	INFO	Listening on port 44769
+Read port: 44769
+WebDriver BiDi listening on ws://127.0.0.1:54919
+1667576537314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGo6FK8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54919/devtools/browser/c209e4bc-a450-45b1-928f-7deefc394ec3
+1667576551413	Marionette	INFO	Stopped listening on port 44769
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1667576554348	Marionette	INFO	Stopped listening on port 36517
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1667576556959	Marionette	INFO	Stopped listening on port 33947
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
