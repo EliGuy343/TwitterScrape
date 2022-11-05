@@ -8,6 +8,8 @@ import os
 
 load_dotenv()
 
+subject = '"Elon Musk"'
+
 login_name = os.getenv('USERNAME')
 login_password = os.getenv('PASSWORD')
 
@@ -23,7 +25,25 @@ next_button.click()
 sleep(3)
 password = driver.find_element(By.XPATH, "//input[@name='password']")
 password.send_keys(login_password)
-log_in = driver.find_element(By.XPATH, "//span[contains(text(), 'log in')]")
+log_in = driver.find_element(By.XPATH, "//span[contains(text(), 'Log in')]")
 log_in.click()
 
+sleep(4)
+search_box = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[1]/div/div/div/form/div[1]/div/div/div/label/div[2]/div/input")
+search_box.send_keys(subject)
+search_box.send_keys(Keys.ENTER)
 
+
+sleep(3)
+latest = driver.find_element(By.XPATH, f"//span[contains(text(), 'Latest')]")
+latest.click()
+
+sleep(3)
+tweets_fetch = driver.find_elements(By.XPATH,".//div[@data-testid='tweetText']")
+
+tweets = []
+
+for tweet in tweets_fetch:
+    tweets.append(tweet.text)
+
+print(tweets)
