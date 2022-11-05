@@ -8,7 +8,7 @@ import os
 
 load_dotenv()
 
-subject = '"Elon Musk"'
+subject = '"Benjamin Netanyahu"'
 
 login_name = os.getenv('USERNAME')
 login_password = os.getenv('PASSWORD')
@@ -35,15 +35,23 @@ search_box.send_keys(Keys.ENTER)
 
 
 sleep(3)
-latest = driver.find_element(By.XPATH, f"//span[contains(text(), 'Latest')]")
+latest = driver.find_element(By.XPATH, f"//span[contains(text(), 'Top')]")
 latest.click()
 
-sleep(3)
-tweets_fetch = driver.find_elements(By.XPATH,".//div[@data-testid='tweetText']")
 
 tweets = []
+while True:
+    sleep(3)
+    tweets_fetch = driver.find_elements(By.XPATH,".//div[@data-testid='tweetText']")
 
-for tweet in tweets_fetch:
-    tweets.append(tweet.text)
+    for tweet in tweets_fetch:
+        tweets.append(tweet.text)
+    if len(tweets) > 20:
+        break
+    driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')
 
-print(tweets)
+import pandas as pd
+
+df = pd.Series(tweets).to_frame()
+df.to_csv("bibi_tweets.csv")
+

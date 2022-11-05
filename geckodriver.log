@@ -321,3 +321,58 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1667652197279	Marionette	INFO	Stopped listening on port 35353
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1667652198752	Marionette	INFO	Stopped listening on port 34805
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1667652432389	geckodriver	INFO	Listening on 127.0.0.1:36107
+1667652432455	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48459" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRfBoPb"
+[GFX1-]: glxtest: libEGL missing methods for GL test
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1667652433144	Marionette	INFO	Marionette enabled
+1667652433148	Marionette	INFO	Listening on port 40731
+Read port: 40731
+WebDriver BiDi listening on ws://127.0.0.1:48459
+1667652433279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRfBoPb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48459/devtools/browser/5f059d3e-62c4-4629-982b-d7075249a844
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1667652757975	Marionette	INFO	Stopped listening on port 42207
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1667652761844	Marionette	INFO	Stopped listening on port 42653
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1667652763915	Marionette	INFO	Stopped listening on port 40731
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1667652791784	geckodriver	INFO	Listening on 127.0.0.1:34959
+1667652791839	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekBYo6X"
+[GFX1-]: glxtest: libEGL missing methods for GL test
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1667652792532	Marionette	INFO	Marionette enabled
+1667652792537	Marionette	INFO	Listening on port 38325
+Read port: 38325
+WebDriver BiDi listening on ws://127.0.0.1:58701
+1667652792668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekBYo6X/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58701/devtools/browser/fc715387-dbd3-4633-bada-d30107cedfb2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
