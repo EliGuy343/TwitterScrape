@@ -8,7 +8,7 @@ import os
 
 load_dotenv()
 
-subject = '"Benjamin Netanyahu"'
+subject = 'Benjamin Netanyahu'
 
 login_name = os.getenv('USERNAME')
 login_password = os.getenv('PASSWORD')
@@ -30,7 +30,7 @@ log_in.click()
 
 sleep(4)
 search_box = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[1]/div/div/div/form/div[1]/div/div/div/label/div[2]/div/input")
-search_box.send_keys(subject)
+search_box.send_keys(f'"{subject}"')
 search_box.send_keys(Keys.ENTER)
 
 

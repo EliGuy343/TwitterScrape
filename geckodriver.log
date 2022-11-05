@@ -376,3 +376,26 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1667654216827	geckodriver	INFO	Listening on 127.0.0.1:57701
+1667654216873	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41549" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilee8xNh4"
+[GFX1-]: glxtest: libEGL missing methods for GL test
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1667654217565	Marionette	INFO	Marionette enabled
+1667654217570	Marionette	INFO	Listening on port 45915
+Read port: 45915
+WebDriver BiDi listening on ws://127.0.0.1:41549
+1667654217694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilee8xNh4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41549/devtools/browser/9ff00222-c860-45d7-bf2f-1ad23da972f7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1667655682825	Marionette	INFO	Stopped listening on port 36847
