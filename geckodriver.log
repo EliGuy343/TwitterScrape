@@ -417,3 +417,45 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:34723/devtools/browser/920aca6a-b891-44f3-b1e1-683ac9e9898f
 1667666483127	Marionette	INFO	Stopped listening on port 33503
 1667666485931	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1667673494272	geckodriver	INFO	Listening on 127.0.0.1:60811
+1667673494328	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46943" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileovvndM"
+[GFX1-]: glxtest: libEGL missing methods for GL test
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1667673495210	Marionette	INFO	Marionette enabled
+1667673495215	Marionette	INFO	Listening on port 41471
+Read port: 41471
+WebDriver BiDi listening on ws://127.0.0.1:46943
+1667673495418	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileovvndM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46943/devtools/browser/42d05fff-851f-4bf6-b4ec-2cf1579d840f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1667673678481	Marionette	INFO	Stopped listening on port 41471
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667673751111	geckodriver	INFO	Listening on 127.0.0.1:58221
+1667673751182	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40125" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5I7yTO"
+[GFX1-]: glxtest: libEGL missing methods for GL test
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1667673751931	Marionette	INFO	Marionette enabled
+1667673751938	Marionette	INFO	Listening on port 42387
+Read port: 42387
+WebDriver BiDi listening on ws://127.0.0.1:40125
+1667673752079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5I7yTO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40125/devtools/browser/b2aa0a06-9ffd-455c-9de9-6b583734046b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
