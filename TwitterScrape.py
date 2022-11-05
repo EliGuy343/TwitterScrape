@@ -52,7 +52,7 @@ while True:
     if len(tweets) > 250:
         break
     driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')
-
+driver.close()
 
 df = pd.Series(tweets).to_frame()
 df.to_csv("tweets.csv")

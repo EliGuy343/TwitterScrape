@@ -459,3 +459,6 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1667674066169	Marionette	INFO	Stopped listening on port 42387
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
