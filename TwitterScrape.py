@@ -46,12 +46,12 @@ while True:
 
     for tweet in tweets_fetch:
         tweets.append(tweet.text)
-    if len(tweets) > 100:
+    if len(tweets) > 800:
         break
     driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')
 
 import pandas as pd
 
 df = pd.Series(tweets).to_frame()
-df.to_csv(f"{subject}_tweets.csv")
+df.to_csv("tweets.csv")
 

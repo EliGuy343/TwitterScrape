@@ -399,3 +399,21 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 1667655682825	Marionette	INFO	Stopped listening on port 36847
+1667656890957	Marionette	INFO	Stopped listening on port 38325
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1667656894397	Marionette	INFO	Stopped listening on port 45915
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667666478813	geckodriver	INFO	Listening on 127.0.0.1:33041
+1667666478868	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34723" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileevAftg"
+[GFX1-]: glxtest: libEGL missing methods for GL test
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1667666479645	Marionette	INFO	Marionette enabled
+1667666479651	Marionette	INFO	Listening on port 33503
+Read port: 33503
+WebDriver BiDi listening on ws://127.0.0.1:34723
+1667666479811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileevAftg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34723/devtools/browser/920aca6a-b891-44f3-b1e1-683ac9e9898f
+1667666483127	Marionette	INFO	Stopped listening on port 33503
+1667666485931	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
