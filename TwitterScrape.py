@@ -53,5 +53,5 @@ while True:
 import pandas as pd
 
 df = pd.Series(tweets).to_frame()
-df.to_csv("bibi_tweets.csv")
+df.to_csv(f"{subject}_tweets.csv")
 
