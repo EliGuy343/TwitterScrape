@@ -46,7 +46,7 @@ while True:
 
     for tweet in tweets_fetch:
         tweets.append(tweet.text)
-    if len(tweets) > 20:
+    if len(tweets) > 100:
         break
     driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')
 
